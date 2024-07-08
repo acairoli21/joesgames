@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registrar Juegos | Joe´s Games</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="barrasup2"><img src="img/joesgame.jpg" alt="logo" width="75%" height="50%"> </div>
+      <div class="barrasup">Por Tiempo Limitado</div>
+      <div class="barrasup">Preventa</div>
+      <div class="barrasup">Próximos a Ingresar</div>
+      <div ><a href="filmsSW.html" class="btn_iniciar_sesion" id="iniciar_sesion" target="_blank">Info Films Star Wars</a></div>
+      <div ><a href="iniciosesion.html" class="btn_iniciar_sesion" id="iniciar_sesion" target="_blank">Iniciar Sesion</a></div>
+      <div ><a href="registrar.html" class="btn_iniciar_sesion" id="iniciar_sesion" target="_blank">Registrar Juegos</a></div>
+    </nav>
+  </header>
+  
+    <section class="formu">
+      <div class="titulosecc5">
+        <p>Registrar Juegos</p>
+        <form method="post" action="insertarjuego.php">
+          <fieldset>
+          <label for="">Nombre</label>
+          <input class="input_buscar" type="text" name="nombre" /><br>
+          <label for="">Tipo</label>
+          <input class="input_buscar" type="text" name="tipo" /><br>
+          <label for="">Fabricante</label>
+          <input class="input_buscar" type="text" name="fabricante" /><br>
+          <label for="">Plataforma</label>
+          <input class="input_buscar" type="text" name="plataforma" /><br>
+          <label for="">Año Lanzamiento</label>
+          <input class="input_buscar" type="number" name="anio"><br><br>
+          <input class="btn_buscar" type="submit" value="Registrar" /><br>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    
+</body>
+
+</html>
+<script src="iniciosesion.js"></script>
