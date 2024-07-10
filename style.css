@@ -274,7 +274,8 @@ nav {
   .itemcaja {
     width: 300px;
   height: auto;
-  background-color: white;
+  background-color: rgb(216, 182, 109);
+  border-radius: 8px;
   margin: 30px;
   text-align: center;
   padding: 5px;
@@ -284,7 +285,8 @@ nav {
   .itemcaja2 {
     width: 200px;
   height: auto;
-  background-color: white;
+  background-color: rgb(125, 211, 136);
+  border-radius: 8px;
   margin: 30px;
   text-align: center;
   padding: 5px;
